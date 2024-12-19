@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        &copy; 2024 {{ site.title }}. All rights reserved.
+    </footer>
+
+    <script>
+        // Dropdown toggle logic
+        function toggleDropdown(id) {
+            var dropdown = document.getElementById(id);
+            if (dropdown.style.display === "none" || dropdown.style.display === "") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

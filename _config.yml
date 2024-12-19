@@ -1,0 +1,13 @@
+theme: jekyll-theme-midnight
+title: "Jeff Spinner Portfolio"
+description: "A portfolio showcasing my personal and professional work."
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://spinnerj.github.io"
+
+navigation:
+  - name: "Home"
+    link: "/"
+  - name: "Personal"
+    link: "/personal/"
+  - name: "Professional"
+    link: "/professional/"
